@@ -55,9 +55,9 @@ in a folder called "business-card"
 */
 @keyframes floatImage {
     0% {
-    translateY(0)}
+   transform: translateY(0)}
     50% {
-    translateY(-15px)}
+    transform: translateY(-15px)}
     100% {
-    translateY(0)}
+    transform: translateY(0)}
 }
