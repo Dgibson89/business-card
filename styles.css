@@ -12,6 +12,8 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 20px;
+    animation: floatImage ease-in-out infinte;
+   
 }
 
 .card {
@@ -51,3 +53,11 @@ Final challenge:
 Download the code to your local computer and place it
 in a folder called "business-card"
 */
+@keyframes floatImage {
+    0% {
+    transformY(0)}
+    50% {
+    transformY(-15px)}
+    100% {
+    transformY(0)}
+}
